@@ -18,7 +18,7 @@ We adapt this primarily from the BigScience fork of [lm-eval-harness](https://gi
 To install dependencies, run this:
 
 ```bash
-git clone https://github.com/babylm/evaluation-pipeline
+git clone https://github.com/kbatsuren/evaluation-pipeline
 cd evaluation-pipeline
 pip install -e ".[dev]"
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
