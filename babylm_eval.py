@@ -4,8 +4,7 @@ import os
 import json
 
 TASKS = {
-    "glue":  ["cola", "sst", "mrpc", "qqp", "mnli", "mnli_mismatched", "qnli", "rte",
-              "boolq", "multirc", "wsc"],
+    "glue":  ["cola", "sst", "rte", "mrpc"], #, "qqp", "mnli", "mnli_mismatched", "qnli", "boolq", "multirc", "wsc"],
     "blimp": ["anaphor_agreement.json", "argument_structure.json", "binding.json",
               "control_raising.json", "determiner_noun_agreement.json", "ellipsis.json",
               "filler_gap.json", "irregular_forms.json", "island_effects.json",
